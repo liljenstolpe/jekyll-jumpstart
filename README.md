@@ -1,37 +1,23 @@
-mkdir _includes
-mkdir _layouts
-mkdir _posts
+#Jekyll Bootstrap
 
-touch _layouts/default.html
-touch _layouts/post.html
-touch _layouts/page.html
+##A Twitter Bootstrap Template for Jekyll
 
-touch _includes/header.html
-touch _includes/footer.html
-touch _includes/sidebar.html
-touch _includes/nav.html
+##Usage
+Just edit the `_config.yml` file with what your desired info.
+Everything else you need can be found in the
+ [Jekyll](https://github.com/mojombo/jekyll) docs
+ and the [Twitter Bootstrap](http://twitter.github.com/bootstrap/) docs.
 
-404.html
-_config.yml
-atom.xml
-CNAME
-index.html
-README.md
-robots.txt
-sitemap.xml
-favicon.ico
-
-
-TODO:
-- solarized code
+##TODO:
+- solarized styles on code
 - custom colors
-- make top nav links work without ".html"
+- make top nav links act funny sometimes
 - generate archives
 - pagination for index page
 - tag pages
 - category pages
 
 - tweak 404
-- plugin tumblr
+- plugin for tumblr
 - tweak feed & add img to feed link
-- JS to include feed, parse it, and display items
+- JS plugin to include arbitrary rss feed, parse it, and display items
