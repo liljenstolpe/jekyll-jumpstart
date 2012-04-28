@@ -16,12 +16,12 @@ A Twitter Bootstrap Template for Jekyll Blogs
 Everything else you need can be found in the corresponding docs:
 - [Jekyll](https://github.com/mojombo/jekyll)
 - [Twitter Bootstrap](http://twitter.github.com/bootstrap/)
-- [Github Pages site](http://help.github.com/pages/).
+- [Github Pages](http://help.github.com/pages/)
 
 ##TODO:
 - solarized styles on code
 - custom colors
-- make top nav links act funny sometimes
+- top nav links act funny sometimes
 - generate archives
 - pagination for index page
 - tag pages
