@@ -1,0 +1,15 @@
+baseurl:        http://www.edrooth.com/experimental
+#baseurl:        /
+
+plugins:        _plugins
+markdown:       rdiscount
+pygments:       true
+
+permalink:      /blog/:year/:month/:day/:title
+
+title:          Ed Rooth
+description:    Website + Blog
+author:         Ed Rooth
+gaid:           UA-GGGGG-G
+disqusname:     edroothcom
+twittername:    sym3tri

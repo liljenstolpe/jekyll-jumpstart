@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<article class="post" name="top">
+  <header>
+    <h1>{{ page.title }}</h1>
+    <em class="meta"><time>{{ page.date | date_to_string }}</time></em>
+  </header>
+  {{ content }}
+  <footer>
+    <div class="meta">
+      <div class="tags">
+      {% for tag in page.tags %}
+        <a class="tag label" href="">{{ tag }}</a>
+      {% endfor %}
+      </div>
+    </div>
+    <p><a href="#top">top</a></p>
+    <hr>
+    <!--disqus-->
+    {% include disqus.html %}
+    <!--/disqus-->
+    <p><a href="#top">top</a></p>
+  </footer>
+</article>
