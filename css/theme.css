@@ -11,6 +11,14 @@ a.rss,
 a.rss:hover {
   text-decoration: none;
 }
+.expanding {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
 
 /* SIDEBAR */
 .sidebar {
@@ -21,21 +29,19 @@ a.rss:hover {
   margin-bottom: 1.5em;
 }
 
+/* MAIN */
+.main {
+}
+
 /* INDEX PAGE */
 ul.post-list {
   paddig: 0;
   margin: 0;
 }
-a.expanding-link {
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
+.post-list a.expanding {
   background-color: rgba(255, 255, 255, 0.3);
 }
-a.expanding-link:hover {
+.post-list a.expanding:hover {
   background-color: transparent;
 }
 .post-list > .post {

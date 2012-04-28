@@ -1,15 +1,11 @@
-baseurl:        http://www.edrooth.com/experimental
-#baseurl:        /
-
+#baseurl:        http://www.edrooth.com/jekyll-bootstrap
 plugins:        _plugins
 markdown:       rdiscount
 pygments:       true
-
 permalink:      /blog/:year/:month/:day/:title
-
-title:          Ed Rooth
-description:    Website + Blog
-author:         Ed Rooth
-gaid:           UA-GGGGG-G
-disqusname:     edroothcom
-twittername:    sym3tri
+title:          Your Awesome Blog
+description:    This site is so rad becuase it uses Jekyll-Bootstrap!
+author:         Your Name
+#analyticsid:    UA-GGGGG-G
+#disqusname:
+#twittername:

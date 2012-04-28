@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Fourth Post"
-published: true
-categories: webdev, hacking
+title: "My First Post"
+categories: webdev hacking
 tags: foo bar bang
+summary: This is my first post on my new blogging platform powered by Jekyll-Bootstrap. If this summary is too long it will be truncated by default.
+published: true
 ---
 
 This is another test post...

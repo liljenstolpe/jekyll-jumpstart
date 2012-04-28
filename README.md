@@ -1,6 +1,6 @@
 #Jekyll Bootstrap
 
-##A Twitter Bootstrap Template for Jekyll
+A Twitter Bootstrap Template for Jekyll
 
 ##Usage
 Just edit the `_config.yml` file with what your desired info.
