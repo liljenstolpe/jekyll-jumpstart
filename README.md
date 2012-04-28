@@ -1,12 +1,22 @@
 #Jekyll Bootstrap
 
-A Twitter Bootstrap Template for Jekyll
+A Twitter Bootstrap Template for Jekyll Blogs
 
-##Usage
-Just edit the `_config.yml` file with what your desired info.
-Everything else you need can be found in the
- [Jekyll](https://github.com/mojombo/jekyll) docs
- and the [Twitter Bootstrap](http://twitter.github.com/bootstrap/) docs.
+##Quickstart Usage
+- Fork this repo
+- Edit the `_config.yml` file with what your desired info.
+- Run `sudo gem install jekyll`
+- Run `jekyll --server --auto` then point your browser to `http://localhost:4000`
+
+##Deploy to Github Pages (optional)
+- `git checkout -b gh-pages`
+- `git push origin gh-pages`
+
+##See Also
+Everything else you need can be found in the corresponding docs:
+- [Jekyll](https://github.com/mojombo/jekyll)
+- [Twitter Bootstrap](http://twitter.github.com/bootstrap/)
+- [Github Pages site](http://help.github.com/pages/).
 
 ##TODO:
 - solarized styles on code
