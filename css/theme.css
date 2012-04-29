@@ -34,27 +34,31 @@ a.rss:hover {
 }
 
 /* INDEX PAGE */
-ul.post-list {
+.post-list {
   paddig: 0;
   margin: 0;
 }
-.post-list a.expanding {
+.post-item {
+  position: relative;
+  padding: 1em 1.5em;
+  overflow: hidden;
+  height: 12em;
+}
+.post-item:last-child {
+  margin-right: 0;
+}
+.post-item em {
+  display: block;
+  margin: 0 0 0.5em 1em;
+}
+.post-item .summary {
+
+}
+.post-item a.expanding {
   background-color: rgba(255, 255, 255, 0.3);
 }
-.post-list a.expanding:hover {
+.post-item a.expanding:hover {
   background-color: transparent;
-}
-.post-list > .post {
-  position: relative;
-  display: inline-block;
-  padding: 1em 1.5em;
-  margin: 0 1em 1em 0;
-  width: 15em;
-  height: 12em;
-  overflow: hidden;
-}
-.post-list > .post:last-child {
-  margin-right: 0;
 }
 
 /* PAGES & POSTS */

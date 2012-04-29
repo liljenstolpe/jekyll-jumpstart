@@ -8,15 +8,13 @@ title: Home
   <p>{{ site.description }}</p>
 </div>
 
-<div class="row-fluid posts">
-  <ul class="post-list">
+<div class="row-fluid post-list">
   {% for post in site.posts %}
-    <li class="post well">
+    <div class="post-item well span4">
       <h3>{{ post.title }}</h3>
       <em>{{ post.date | date_to_string }}</em>
-      <div class="summary">{{ post.summary }}</div>
+      <div class="summary">{{ post.summary | truncate: 120 "..." }}</div>
       <a href="{{ site.baseurl }}{{ post.url }}" class="expanding"></a>
-    </li>
+    </div>
   {% endfor %}
-  </ul>
 </div><!--/row-->

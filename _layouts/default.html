@@ -20,11 +20,16 @@
     <link rel="apple-touch-icon-precomposed" href="{{ site.baseurl }}/img/ico/apple-touch-icon-57-precomposed.png">
   </head>
 
-  <body>
+  <body class="{{ page.title }}">
 
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container-fluid">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
           <a class="brand" href="{{ site.baseurl }}">{{ site.title }}</a>
           <a href="atom.xml" class="rss"><button class="pull-right btn btn-warning">RSS</button></a>
           <div class="nav-collapse">
