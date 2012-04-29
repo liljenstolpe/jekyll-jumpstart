@@ -9,12 +9,13 @@ title: Home
 </div>
 
 <div class="row-fluid post-list">
-  {% for post in site.posts %}
-    <div class="post-item well span4">
-      <h3>{{ post.title }}</h3>
-      <em>{{ post.date | date_to_string }}</em>
-      <div class="summary">{{ post.summary | truncate: 120 "..." }}</div>
-      <a href="{{ site.baseurl }}{{ post.url }}" class="expanding"></a>
-    </div>
+  {% for post in site.posts limit:4 %}
+    {% include post-item.html %}
   {% endfor %}
-</div><!--/row-->
+</div><!--/row-fluid /post-list-->
+
+<div class="row-fluid post-list">
+  {% for post in site.posts limit:4 offset:4 %}
+    {% include post-item.html %}
+  {% endfor %}
+</div><!--/row-fluid /post-list-->
