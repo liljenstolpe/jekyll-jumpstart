@@ -22,7 +22,6 @@ Everything else you need can be found in the corresponding docs:
 - solarized styles on code
 - custom colors
 - top nav links act funny sometimes
-- pagination for index page
 - tag pages
 - category pages
 
