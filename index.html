@@ -19,3 +19,11 @@ title: Home
     {% include post-item.html %}
   {% endfor %}
 </div><!--/row-fluid /post-list-->
+
+{% if site.posts.size > 8 %}
+<div class="row-fluid">
+  <div class="span12 more-posts">
+    <a href="/blog/index.html">older posts &raquo;</a>
+  </div>
+</div>
+{% endif %}

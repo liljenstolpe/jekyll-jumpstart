@@ -60,6 +60,9 @@ a.rss:hover {
 .post-item a.expanding:hover {
   background-color: transparent;
 }
+.more-posts {
+  text-align: right;
+}
 
 /* PAGES & POSTS */
 .page,
