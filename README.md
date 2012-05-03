@@ -17,6 +17,7 @@ Everything else you need can be found in the corresponding docs:
 - [Jekyll](https://github.com/mojombo/jekyll)
 - [Twitter Bootstrap](http://twitter.github.com/bootstrap/)
 - [Github Pages](http://help.github.com/pages/)
+- [Markdown Reference](http://daringfireball.net/projects/markdown/syntax)
 
 ##TODO:
 - solarized styles on code
