@@ -20,12 +20,18 @@ Everything else you need can be found in the corresponding docs:
 - [Markdown Reference](http://daringfireball.net/projects/markdown/syntax)
 
 ##TODO:
-- solarized styles on code
 - custom colors
 - top nav links act funny sometimes
 - tag pages
 - category pages
 
+
+- support solarized dark
+- google search
+- gists
+- jsfiddle
+- sitemap generator
+- feedburner
 - favicon
 - tweak 404
 - plugin for tumblr
