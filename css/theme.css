@@ -56,7 +56,6 @@ a.rss:hover {
   margin: 0 0 0.5em 1em;
 }
 .post-item .summary {
-
 }
 .post-item a.expanding {
   background-color: rgba(255, 255, 255, 0.3);
@@ -67,6 +66,11 @@ a.rss:hover {
 .more-posts {
   text-align: right;
 }
+/* optional background image
+.home .hero-unit {
+  background: url() no-repeat;
+}
+*/
 
 /* PAGES & POSTS */
 .page,
