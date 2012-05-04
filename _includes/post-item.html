@@ -2,7 +2,7 @@
 <div class="post-item well span3">
   <h3>{{ post.title }}</h3>
   <em>{{ post.date | date_to_string }}</em>
-  <div class="summary">{{ post.summary | truncate: 120 "..." }}</div>
+  <div class="excerpt">{{ post.excerpt | truncate: 120 "..." }}</div>
   <a href="{{ site.baseurl }}{{ post.url }}" class="expanding"></a>
 </div>
 <!--/post-item-->
