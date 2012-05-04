@@ -26,7 +26,9 @@ Everything else you need can be found in the corresponding docs:
 - tag pages
 - category pages
 
+- favicon
 - tweak 404
 - plugin for tumblr
-- tweak feed & add img to feed link
+- tweak feed
+- add img to feed link
 - JS plugin to include arbitrary rss feed, parse it, and display items
