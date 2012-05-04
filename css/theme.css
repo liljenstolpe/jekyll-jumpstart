@@ -28,6 +28,10 @@ a.rss:hover {
 .sidebar aside {
   margin-bottom: 1.5em;
 }
+.sidebar .author-about-blub {
+  margin: 1em 0;
+  font-style: italic;
+}
 
 /* MAIN */
 .main {
