@@ -1,4 +1,4 @@
-#baseurl:        http://www.edrooth.com/jekyll-bootstrap
+#baseurl:        http://www.your-site.com
 plugins:        _plugins
 markdown:       rdiscount
 pygments:       true
