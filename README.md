@@ -26,11 +26,16 @@ Everything else you need can be found in the corresponding docs:
 - category pages
 
 
+- Rakefile to
+  - create new post (using template)
+  - compile less files
+  - concat js
+
+- related posts
 - support solarized dark
 - google search
 - gists
 - jsfiddle
-- sitemap generator
 - feedburner
 - favicon
 - tweak 404
@@ -38,3 +43,5 @@ Everything else you need can be found in the corresponding docs:
 - tweak feed
 - add img to feed link
 - JS plugin to include arbitrary rss feed, parse it, and display items
+
+
