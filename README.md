@@ -1,6 +1,7 @@
 #Jekyll Jumpstart
 
-A Twitter Bootstrap Template for Jekyll Blogs
+A Twitter Bootstrap Template for Jekyll Blogs.   
+Simple, Easy, Fast.
 
 ##Quickstart Usage
 - Fork this repo
@@ -8,7 +9,9 @@ A Twitter Bootstrap Template for Jekyll Blogs
 - Run `sudo gem install jekyll`
 - Run `jekyll --server --auto` then point your browser to `http://localhost:4000`
 
-##Deploy to Github Pages (optional)
+##Deploy to Github Pages
+- Create a new repo on github called `your-username.github.com`
+- `git remote add origin url-to-your-new-repo`
 - `git checkout -b gh-pages`
 - `git push origin gh-pages`
 
@@ -26,7 +29,7 @@ Everything else you need can be found in the corresponding docs:
 - Rakefile to
   - create new post (using template)
   - compile less files
-  - concat js
+  - concat js files
 
 - related posts
 - support solarized dark
@@ -35,7 +38,5 @@ Everything else you need can be found in the corresponding docs:
 - feedburner
 - favicon
 - plugin for tumblr
-- tweak feed
-- add img to feed link
 - JS plugin to include arbitrary rss feed, parse it, and display items
 
