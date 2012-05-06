@@ -23,7 +23,6 @@ Everything else you need can be found in the corresponding docs:
 - custom colors
 - tag pages
 
-
 - Rakefile to
   - create new post (using template)
   - compile less files
@@ -31,7 +30,6 @@ Everything else you need can be found in the corresponding docs:
 
 - related posts
 - support solarized dark
-- google search
 - gists
 - jsfiddle
 - feedburner

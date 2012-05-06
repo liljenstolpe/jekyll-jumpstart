@@ -16,7 +16,17 @@
     <li><a href="#">Twitter</a></li>
   </ul>
 </aside>
-<h4><a href="{{ site.baseurl }}/blog/">Archive</a></h4>
+<aside>
+  <h4><a href="{{ site.baseurl }}/blog/">Blog Archives</a></h4>
+</aside>
+{% if site.search_enabled %}
+<aside>
+  <form class="form-search" method="GET" action="http://google.com/search">
+    <input type="hidden" name="q" value="site:{{ site.baseurl }}">
+    <input type="text" class="input-medium search-query" name="q" results="0" placeholder="Search...">
+  </form>
+</aside>
+{% endif %}
 <aside class="tweets">
   {% include tweets.html %}
 </aside>
