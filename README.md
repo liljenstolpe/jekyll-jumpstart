@@ -1,6 +1,6 @@
 #Jekyll Jumpstart
 
-A Twitter Bootstrap Template for Jekyll Blogs.   
+A boilerplate Jekyll blog base on Twitter Bootstrap.   
 Simple, Easy, Fast.
 
 ##Quickstart Usage
