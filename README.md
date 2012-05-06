@@ -21,9 +21,7 @@ Everything else you need can be found in the corresponding docs:
 
 ##TODO:
 - custom colors
-- top nav links act funny sometimes
 - tag pages
-- category pages
 
 
 - Rakefile to
@@ -38,10 +36,8 @@ Everything else you need can be found in the corresponding docs:
 - jsfiddle
 - feedburner
 - favicon
-- tweak 404
 - plugin for tumblr
 - tweak feed
 - add img to feed link
 - JS plugin to include arbitrary rss feed, parse it, and display items
-
 
