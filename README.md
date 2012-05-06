@@ -12,8 +12,7 @@ Simple, Easy, Fast.
 ##Deploy to Github Pages
 - Create a new repo on github called `your-username.github.com`
 - `git remote add origin url-to-your-new-repo`
-- `git checkout -b gh-pages`
-- `git push origin gh-pages`
+- `git push origin master`
 
 ##See Also
 Everything else you need can be found in the corresponding docs:
