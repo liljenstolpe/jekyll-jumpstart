@@ -1,6 +1,6 @@
 #Jekyll Jumpstart
 
-A boilerplate Jekyll blog base on Twitter Bootstrap.   
+A boilerplate Jekyll blog based on Twitter Bootstrap.   
 Simple, Easy, Fast.
 
 ##Quickstart Usage
