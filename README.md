@@ -1,4 +1,4 @@
-#Jekyll Bootstrap
+#Jekyll Jumpstart
 
 A Twitter Bootstrap Template for Jekyll Blogs
 
