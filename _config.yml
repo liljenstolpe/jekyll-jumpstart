@@ -4,7 +4,7 @@ markdown:       rdiscount
 pygments:       true
 permalink:      /blog/:year/:month/:day/:title
 title:          Your Awesome Blog
-description:    This site is so rad becuase it uses Jekyll-Bootstrap!
+description:    This site is so rad because it uses Jekyll-Bootstrap!
 author:         Your Name
 search_enabled: true
 #analyticsid:    UA-GGGGG-G
