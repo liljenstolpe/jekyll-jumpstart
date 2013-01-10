@@ -1,13 +1,13 @@
-#baseurl:        http://www.your-site.com
+baseurl:        http://www.asgaard.org/
 plugins:        _plugins
 markdown:       rdiscount
 pygments:       true
 permalink:      /blog/:year/:month/:day/:title
-title:          Your Awesome Blog
-description:    This site is so rad because it uses Jekyll-Bootstrap!
-author:         Your Name
+title:          Great God! This is an awful place
+description:    I'll fill this in sometime
+author:         Christopher LILJENSTOLPE
 search_enabled: true
-#analyticsid:    UA-GGGGG-G
-#disqusname:
-#twittername:
-#gravatarhash:
+analyticsid:    UA-37549754-1
+disqusname:	asgaard
+twittername:	liljenstolpe
+#gravatarhash:	0272f1b3a0f71dac79ad84e01887ee1c
